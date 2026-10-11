@@ -1,0 +1,5 @@
+This needs refresh to see the changes 
+it doesnt show the changes live 
+because I think buffers directly convert text to binary this one has some other process maybe thats why 
+lets try and see the reason why this doesnt work like the buffer 
+Need to work more hard 

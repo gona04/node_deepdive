@@ -1,0 +1,36 @@
+Hello, World!
+This is a sample text file for testing read and write operations.
+You can modify this content as needed.
+The quick brown fox jumps over the lazy dog.
+1234567890
+Special characters: !@#$%^&*()_+-=[]{}|;':",./<>?
+Hello, World!
+This is a sample text file for testing read and write operations.
+You can modify this content as needed.
+The quick brown fox jumps over the lazy dog.
+1234567890
+Special characters: !@#$%^&*()_+-=[]{}|;':",./<>?
+Hello, World!
+This is a sample text file for testing read and write operations.
+You can modify this content as needed.
+The quick brown fox jumps over the lazy dog.
+1234567890
+Special characters: !@#$%^&*()_+-=[]{}|;':",./<>?
+Hello, World!
+This is a sample text file for testing read and write operations.
+You can modify this content as needed.
+The quick brown fox jumps over the lazy dog.
+1234567890
+Special characters: !@#$%^&*()_+-=[]{}|;':",./<>?
+Hello, World!
+This is a sample text file for testing read and write operations.
+You can modify this content as needed.
+The quick brown fox jumps over the lazy dog.
+1234567890
+Special characters: !@#$%^&*()_+-=[]{}|;':",./<>?
+Hello, World!
+This is a sample text file for testing read and write operations.
+You can modify this content as needed.
+The quick brown fox jumps over the lazy dog.
+1234567890
+Special characters: !@#$%^&*()_+-=[]{}|;':",./<>?
