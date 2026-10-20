@@ -1,7 +1,7 @@
-import { Login } from './login/Login';
+import { FilesAndFolders } from './features/filesAndFolders/components/FilesAndFolders';
 
 export function App() {
   return (
-    <Login/>
+    <FilesAndFolders/>
   )
 }

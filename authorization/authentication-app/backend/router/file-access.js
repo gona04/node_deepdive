@@ -1,16 +1,23 @@
 import express from "express";
-import { downloadFiles, getFilesAndFolders, previewFiles } from "../controller/fileAccessController.js";
-import { fileURLToPath } from "node:url";
+import {
+  downloadFiles,
+  listFilesAndFolders,
+  previewFiles,
+  uploadFile,
+} from "../controller/fileAccessController.js";
+import { parseFileUpload } from "../controller/middleware/uploadFile.js";
+import { publicDirectory } from "../model/fileAccessModel.js";
 
-const app = express();
+const router = express.Router();
 
-app.get("/", getFilesAndFolders);
+router.get("/", listFilesAndFolders);
 
-app.get("/download/:fileName", downloadFiles);
+router.post("/upload", parseFileUpload, uploadFile);
 
-app.get("/preview/:fileName", previewFiles);
+router.get("/download/:fileName", downloadFiles);
 
-const publicDirectory = fileURLToPath(new URL("../public/", import.meta.url));
-app.use(express.static(publicDirectory));
+router.get("/preview/:fileName", previewFiles);
 
-export default app;
+router.use(express.static(publicDirectory));
+
+export default router;
