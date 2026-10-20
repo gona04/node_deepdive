@@ -16,7 +16,8 @@ socket.on('listening', () => {
     console.log('listening');
 })
 
-socket.send("Hello from abc", 3000, '192.168.1.2')
+// socket.send("Hello from abc", 3000, '192.168.1.2')
+socket.send("Hello from abc",  2000, '192.168.1.4')
 
 //starts the server on a port 
 // socket.bind(58164)

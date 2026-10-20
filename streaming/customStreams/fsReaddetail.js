@@ -1,7 +1,9 @@
 import fs from 'fs'; 
+import path from 'path';
 //7.316 ms
 console.time('read sync')
-const fd = fs.openSync('../text-two.txt', 'r')
+const filePath = path.join(process.cwd(), '/streaming/customStreams/textCopy.txt' );
+const fd = fs.openSync(filePath, 'r')
 
 const b = Buffer.alloc(10) 
 //Sync

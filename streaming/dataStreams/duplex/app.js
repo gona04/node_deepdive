@@ -10,11 +10,12 @@ const childProcess = spawn('node', ['./childApp.js']);
 
 // CHILD → PARENT
 childProcess.stdout.on("data", (chunk) => {
-    console.log("Parent received:", chunk.toString());
+    //This is what has the output of the child
+    console.log("1 Parent received:", chunk.toString());
 });
 
 // PARENT → CHILD
-childProcess.stdin.write("Hello guardian, from your home");
+childProcess.stdin.write(" 2 Hello guardian, from your home");
 
 /*
 The challenging part for me is I am assuming that this 
