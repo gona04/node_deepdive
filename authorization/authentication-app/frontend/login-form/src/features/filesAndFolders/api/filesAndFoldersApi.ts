@@ -4,6 +4,7 @@ import type { FilesAndFoldersResponse } from "../types/filesAndFolders";
 export const filesUrl = "/files";
 
 export const getFilesAndFolders = () => {
+  
   return fetchJson<FilesAndFoldersResponse>(filesUrl);
 };
 
